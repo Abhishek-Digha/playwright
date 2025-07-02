@@ -1,0 +1,15 @@
+{
+    "mcp":{
+    "servers": {
+    "testrail": {
+      "command": "npx",
+      "args": ["@bun913/mcp-testrail@latest"],
+      "env": {
+        "TESTRAIL_URL": "https://abhicentric.testrail.io", // Replace with your TestRail URL
+        "TESTRAIL_USERNAME": "ak47myself@gmail.com", // Replace with your TestRail username
+        "TESTRAIL_API_KEY": "tRHLiaC60ddImzlYEujB-IrqHXvCC3AB9BZYk09v8" // Replace with your TestRail API key
+      }
+    }
+}
+}
+}
